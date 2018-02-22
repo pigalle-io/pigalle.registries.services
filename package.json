@@ -2,7 +2,7 @@
   "name": "@pigalle/registries.services",
   "version": "0.1.0",
   "description": "A services registry for the Pigalle framework. ",
-  "main": "lib/index.js",
+  "main": "lib/services-registry.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
@@ -56,7 +56,7 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
-    "@pigalle/registries.base": "^0.1.0",
-    "lodash": "^4.17.5"
+    "@pigalle/entities.service": "*",
+    "@pigalle/registries.base": "^0.2.1"
   }
 }
